@@ -1,0 +1,25 @@
+.image {
+  width: 24rem;
+}
+.image img {
+  width: 100%;
+  border-radius: 50%;
+}
+.about {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.info {
+  vertical-align: center;
+  padding-top: 3rem;
+}
+
+.info h1 {
+  font-size: 3rem;
+}
+.info p {
+  font-size: 1.3rem;
+}
