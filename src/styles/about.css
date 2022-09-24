@@ -23,3 +23,15 @@
 .info p {
   font-size: 1.3rem;
 }
+
+.icon2 {
+  font-size: 2rem;
+
+  margin-right: 1rem;
+}
+h2 {
+  font-size: 2rem;
+}
+span {
+  color: #ef4323;
+}

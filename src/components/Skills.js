@@ -1,4 +1,11 @@
-import { FaHtml5, FaJava, FaReact, FaPython, FaCss3 } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaJava,
+  FaReact,
+  FaPython,
+  FaCss3,
+  FaJs,
+} from "react-icons/fa";
 import "../styles/skills.css";
 function Skills() {
   return (
@@ -26,6 +33,10 @@ function Skills() {
             <li>
               <FaCss3 className="icon" />
               <p>CSS</p>
+            </li>
+            <li>
+              <FaJs className="icon" />
+              <p>JS</p>
             </li>
           </ul>
         </div>

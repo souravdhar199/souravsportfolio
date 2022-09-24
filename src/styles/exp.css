@@ -1,5 +1,5 @@
 .experience {
-  padding: 0rem 6rem 0rem 6rem;
+  margin-top: 5rem;
 }
 .experience h1 {
   font-size: 2.5rem;
@@ -13,6 +13,17 @@
   text-align: center;
 }
 .info1 ul {
-  display: flex;
-  gap: 11%;
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+
+  gap: 5%;
+}
+.info1 li {
+  max-width: 29rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
 }

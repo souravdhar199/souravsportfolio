@@ -6,6 +6,7 @@ function Navbar() {
         <li>ABOUT</li>
         <li>EXPERINCE</li>
         <li>SKILLS</li>
+        <li>PROJECTS</li>
         <li>RESUME</li>
       </ul>
     </nav>

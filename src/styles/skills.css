@@ -1,5 +1,5 @@
 .skills {
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 .skills h1 {
   text-align: center;
@@ -8,16 +8,18 @@
 
 .icon {
   font-size: 5rem;
-  color: red;
+  color: #ef4323;
 }
 .info2 ul {
-  display: flex;
+  display: grid;
   justify-content: center;
-  gap: 14%;
+  grid-template-columns: auto auto auto;
+  gap: 20%;
+  padding-right: 3rem;
 }
 
 .info2 ul li p {
   font-size: 1.3rem;
   font-weight: bold;
-  text-align: center;
+  padding-left: 1rem;
 }
