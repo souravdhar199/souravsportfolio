@@ -4,16 +4,19 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import { ProviderPinned } from "./githubContext";
 
 function App() {
   return (
-    <div className="main">
-      <Navbar />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-    </div>
+    <ProviderPinned>
+      <div className="main">
+        <Navbar />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+      </div>
+    </ProviderPinned>
   );
 }
 
