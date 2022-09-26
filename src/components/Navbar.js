@@ -16,7 +16,7 @@ function Navbar() {
         </li>
         <li>
           <Link activeClass="active" to="experience">
-            EXPERIRNCE
+            EXPERIENCE
           </Link>
         </li>
         <li>
