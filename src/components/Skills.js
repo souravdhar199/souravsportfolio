@@ -7,6 +7,7 @@ import {
   FaJs,
 } from "react-icons/fa";
 import "../styles/skills.css";
+
 function Skills() {
   return (
     <section className="skills ">

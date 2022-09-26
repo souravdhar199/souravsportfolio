@@ -1,4 +1,5 @@
 import "../styles/exp.css";
+import Flip from "react-reveal/Flip";
 function Experience() {
   return (
     <section className="experience ">
@@ -10,23 +11,25 @@ function Experience() {
         <div className="info1">
           <h2>Software Engineer Intern</h2>
           <ul>
-            <li>
-              Using React, Onboarded a new business partner to the existing
-              Frontdoor website, which was used by 100k+ customers.
-            </li>
-            <li>
-              Developed a REST API by designing schema and instances and writing
-              Parsley code in Zesty.
-            </li>
-            <li>
-              Debugged over 500+ lines of Go code to ensure the backend received
-              expected responses.{" "}
-            </li>
-            <li>
-              Extracted features from the code base and designed technical
-              architecture documents to help onboard new partners to the website
-              instantly rather than in a week.
-            </li>
+            <Flip right>
+              <li>
+                Using React, Onboarded a new business partner to the existing
+                Frontdoor website, which was used by 100k+ customers.
+              </li>
+              <li>
+                Developed a REST API by designing schema and instances and
+                writing Parsley code in Zesty.
+              </li>
+              <li>
+                Debugged over 500+ lines of Go code to ensure the backend
+                received expected responses.{" "}
+              </li>
+              <li>
+                Extracted features from the code base and designed technical
+                architecture documents to help onboard new partners to the
+                website instantly rather than in a week.
+              </li>
+            </Flip>
           </ul>
         </div>
       </div>
