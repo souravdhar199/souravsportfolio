@@ -9,6 +9,9 @@
 .image1 {
   text-align: center;
 }
+.image1 img {
+  width: 25rem;
+}
 .info1 h2 {
   text-align: center;
 }
@@ -21,9 +24,27 @@
   gap: 5%;
 }
 .info1 li {
-  max-width: 29rem;
+  max-width: 89rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   margin-bottom: 2rem;
   text-align: center;
   padding: 1rem 1rem 1rem 1rem;
+}
+
+@media screen and (max-width: 593px) {
+  .info1 ul {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: auto;
+
+    padding-left: 0rem;
+
+    gap: 0%;
+  }
+  .info1 li {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 2rem;
+
+    padding: 1rem 1rem 1rem 1rem;
+  }
 }

@@ -1,3 +1,6 @@
+html {
+  font-size: 100%;
+}
 .image {
   width: 24rem;
 }
@@ -9,7 +12,7 @@
   padding-top: 5rem;
   display: flex;
   justify-content: center;
-  gap: 10%;
+  gap: 7%;
 }
 
 .info {
@@ -35,3 +38,60 @@ h2 {
 span {
   color: #ef4323;
 }
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 85%;
+  }
+}
+@media screen and (max-width: 853px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media screen and (max-width: 728px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 593px) {
+  html {
+    font-size: 55%;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: auto auito;
+    justify-content: center;
+  }
+
+  .info {
+    order: 2;
+    padding-top: 0rem;
+    text-align: center;
+  }
+  .info h1 {
+    margin-top: 0rem;
+  }
+  .image {
+    width: 100%;
+    text-align: center;
+  }
+  .image img {
+    width: 24rem;
+  }
+}
+
+/* //502 */

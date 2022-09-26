@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import PinnedContext from "../githubContext";
 import { GiPlainCircle } from "react-icons/gi";
+import { GoMarkGithub } from "react-icons/go";
 import "../styles/project.css";
 function Projects() {
   const pinnedRepo = useContext(PinnedContext);
@@ -28,7 +29,11 @@ function Projects() {
               </div>
 
               <a href={item.url}>
-                <button>View Project</button>
+                <button>
+                  {" "}
+                  <GoMarkGithub className="git" />
+                  View Project
+                </button>
               </a>
             </div>
           ))}

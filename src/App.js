@@ -5,6 +5,7 @@ import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import { ProviderPinned } from "./githubContext";
+import Fotter from "./components/Fotter";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
+        <Fotter />
       </div>
     </ProviderPinned>
   );

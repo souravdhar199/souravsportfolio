@@ -12,9 +12,10 @@
 }
 .info2 ul {
   display: grid;
-  justify-content: center;
+
   grid-template-columns: auto auto auto;
-  gap: 20%;
+  justify-content: center;
+  gap: 25%;
   padding-right: 3rem;
 }
 
