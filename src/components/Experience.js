@@ -11,7 +11,7 @@ function Experience() {
         <div className="info1">
           <h2>Software Engineer Intern</h2>
           <ul>
-            <Flip right>
+            <Flip right duration={1000}>
               <li>
                 Using React, Onboarded a new business partner to the existing
                 Frontdoor website, which was used by 100k+ customers.

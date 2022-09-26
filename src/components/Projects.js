@@ -3,7 +3,7 @@ import PinnedContext from "../githubContext";
 import { GiPlainCircle } from "react-icons/gi";
 import { GoMarkGithub } from "react-icons/go";
 import "../styles/project.css";
-import Fade from "react-reveal/Roll";
+import Zoom from "react-reveal/Zoom";
 function Projects() {
   const pinnedRepo = useContext(PinnedContext);
   console.log(pinnedRepo);
@@ -13,7 +13,7 @@ function Projects() {
       <div className="Projects">
         <div className="Container">
           {pinnedRepo.pinnedRepo.map((item) => (
-            <Fade left>
+            <Zoom left duration={1500}>
               <div className="childProjects">
                 <h3>{item.name}</h3>
                 <p className="des">{item.description}</p>
@@ -37,7 +37,7 @@ function Projects() {
                   </button>
                 </a>
               </div>
-            </Fade>
+            </Zoom>
           ))}
         </div>
       </div>
