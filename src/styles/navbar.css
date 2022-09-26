@@ -14,9 +14,19 @@
 li {
   list-style: none;
 }
+
 .nav ul {
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 10%;
+}
+.firstul li:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 593px) {
+  .nav {
+    font-size: 1.3rem;
+    box-shadow: none;
+  }
 }

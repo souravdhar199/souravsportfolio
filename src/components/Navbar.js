@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 function Navbar() {
   return (
     <nav className="nav">
-      <ul>
+      <ul className="firstul">
         <li>
           <Link activeClass="active" to="about">
             ABOUT
