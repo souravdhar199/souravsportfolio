@@ -10,7 +10,7 @@ import "../styles/skills.css";
 
 function Skills() {
   return (
-    <section className="skills ">
+    <section className="skills">
       <h1>Skills</h1>
       <div className="skillitems">
         <div className="info2">
