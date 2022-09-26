@@ -1,0 +1,71 @@
+.Container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 3%;
+}
+
+.childProjects {
+  text-align: center;
+  max-width: 29rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.childProjects h3 {
+  text-align: center;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+
+  gap: 1%;
+}
+
+.porgLang {
+  display: inline-block;
+  font-size: 1rem;
+  color: black;
+}
+.icons3 {
+  font-size: 1.2rem;
+}
+
+.des {
+  text-align: center;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #ef4323;
+}
+
+button:hover {
+  color: white;
+}
+
+button {
+  margin-top: 1rem;
+}

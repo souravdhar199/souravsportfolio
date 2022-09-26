@@ -1,5 +1,7 @@
 import { useContext } from "react";
 import PinnedContext from "../githubContext";
+import { GiPlainCircle } from "react-icons/gi";
+import "../styles/project.css";
 function Projects() {
   const pinnedRepo = useContext(PinnedContext);
   console.log(pinnedRepo);
@@ -12,13 +14,22 @@ function Projects() {
           {pinnedRepo.pinnedRepo.map((item) => (
             <div className="childProjects">
               <h3>{item.name}</h3>
-              <p>{item.description}</p>
-              {item.languages.nodes.map((lang) => (
-                <p>{lang.name}</p>
-              ))}
-              <button>
-                <a href={item.url}>View Project</a>
-              </button>
+              <p className="des">{item.description}</p>
+              <div className="language">
+                {item.languages.nodes.map((lang) => (
+                  <>
+                    <GiPlainCircle
+                      className="icons3"
+                      style={{ color: `${lang.color}` }}
+                    />
+                    <span className="porgLang">{lang.name}</span>
+                  </>
+                ))}
+              </div>
+
+              <a href={item.url}>
+                <button>View Project</button>
+              </a>
             </div>
           ))}
         </div>
