@@ -26,7 +26,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to={<Blog />}>BLOG</Link>
+          <Link activeClass="active">BLOG</Link>
         </li>
       </ul>
     </nav>
