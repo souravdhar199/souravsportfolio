@@ -1,6 +1,5 @@
 import "../styles/navbar.css";
 import { Link } from "react-scroll";
-import Blog from "./Blog";
 function Navbar() {
   return (
     <nav className="nav">
