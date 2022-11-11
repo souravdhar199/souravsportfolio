@@ -25,9 +25,6 @@ function Navbar() {
             PROJECTS
           </Link>
         </li>
-        <li>
-          <Link activeClass="active">BLOG</Link>
-        </li>
       </ul>
     </nav>
   );
