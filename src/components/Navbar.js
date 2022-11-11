@@ -1,5 +1,6 @@
 import "../styles/navbar.css";
 import { Link } from "react-scroll";
+import Blog from "./Blog";
 function Navbar() {
   return (
     <nav className="nav">
@@ -23,6 +24,9 @@ function Navbar() {
           <Link activeClass="active" to="mainProject">
             PROJECTS
           </Link>
+        </li>
+        <li>
+          <Link to={<Blog />}>BLOG</Link>
         </li>
       </ul>
     </nav>
