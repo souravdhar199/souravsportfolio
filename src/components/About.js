@@ -1,4 +1,4 @@
-import { FaSchool } from "react-icons/fa";
+import { IoIosSchool } from "react-icons/io";
 import img1 from "../images/profile.jpg";
 import "../styles/about.css";
 function About() {
@@ -8,8 +8,8 @@ function About() {
         <h1>
           Hi my name is <span>Sourav</span>{" "}
         </h1>
-        <h2>
-          <FaSchool className="icon2" />
+        <h2 className="makeInline">
+          <IoIosSchool className="icon2" />
           Georgia State University
         </h2>
         <p>Upcoming CS grad, Looking for Entry level SWE role</p>
