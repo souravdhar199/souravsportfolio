@@ -38,8 +38,11 @@ html {
   font-size: 2rem;
 }
 
-span {
+.nameColor {
   color: #ef4323;
+}
+.typed-wrapper {
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1000px) {
