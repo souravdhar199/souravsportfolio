@@ -5,12 +5,12 @@ import Typewriter from "typewriter-effect";
 import Zoom from "react-reveal/Flip";
 function About() {
   const onButtonClick = () => {
-    fetch("resume_souravdhar.pdf").then((response) => {
+    fetch("sourav-resume-2023.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "resume_souravdhar.pdf";
+        alink.download = "sourav-resume-2023.pdf";
         alink.click();
       });
     });
@@ -42,7 +42,9 @@ function About() {
 
         <Zoom left duration={2000}>
           {" "}
-          <button onClick={() => onButtonClick()}>Hire me</button>
+          <button className="HireButtons" onClick={() => onButtonClick()}>
+            Hire me
+          </button>
         </Zoom>
       </div>
       <div className="image">
