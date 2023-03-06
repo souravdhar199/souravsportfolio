@@ -30,7 +30,7 @@ function About() {
           onInit={(typewriter) => {
             typewriter
 
-              .typeString("Looking for Entry Level Software Engineer Role")
+              .typeString("Seeking full time opportunity's in tech")
 
               .start();
           }}
