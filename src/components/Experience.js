@@ -6,7 +6,7 @@ function Experience() {
       <h1>Experience</h1>
       <div className="frontdoor">
         <div className="image1">
-          <img alt="none" src="https://frontdoor.jobs/_nuxt/image/5361ab.svg" />
+          <img alt="none" src="https://s1.q4cdn.com/541446483/files/doc_multimedia/Frontdoor_Logo_2023_4C_copy.jpg" />
         </div>
         <div className="info1">
           <h2>Software Engineer Intern</h2>
